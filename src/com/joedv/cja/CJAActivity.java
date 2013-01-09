@@ -9,6 +9,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.KeyEvent;
 import org.apache.cordova.*;
 
 @SuppressWarnings("unused")
@@ -21,6 +22,7 @@ public class CJAActivity extends DroidGap {
 				 WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
 		
 		super.setIntegerProperty("splashscreen", R.drawable.splash);
-		super.loadUrl("file:///android_asset/www/index.html",3000);
+		//super.loadUrl("file:///android_asset/www/index.html",3000);
+		super.loadUrl("http://www.jdvhosting.com/CJA/index2.html",3500);
 	}
 }
